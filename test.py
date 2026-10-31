@@ -1,1 +1,2 @@
-print("it is not a test")
+print("hello fucker")
+print("hello fucker 2")
