@@ -30,6 +30,7 @@ def run_simulation(
 
 
     for _ in range(num_iterations):
+        # Draw one response category from the cumulative event probabilities.
         u1 = np.random.uniform(0, 1)
         if u1 < p_CC:
             current_trust = current_trust + trust_boost(k, delta, current_trust)
